@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/Users/yaoxu/git/zhihu/apps/common/macros'
+let g:netrw_dirhist_2='/Users/yaoxu/git/zhihu/apps'
+let g:netrw_dirhist_3='/Users/yaoxu/git/zhihu/apps/core'
+let g:netrw_dirhist_4='/Users/yaoxu/test.pdf'
+let g:netrw_dirhist_5='/Users/yaoxu/git/zhihu/apps/web/views/basehandler'
+let g:netrw_dirhist_6='/Users/yaoxu/git/zhihu/apps/core/models'
+let g:netrw_dirhist_7='/Users/yaoxu/.vim'
+let g:netrw_dirhist_8='/Users/yaoxu/.ssh'
+let g:netrw_dirhist_9='/Users/yaoxu/github/.git'

@@ -1,0 +1,32 @@
+export CLICOLOR=1
+#export LSCOLORS=Fxbxaxdxcxegedabagacad
+export PS1="\[\e[32;1m\]\u@\H \w \$ \[\e[0m\]"
+export LSCOLORS=gxfxaxdxcxegedabagacad
+alias ll="ls -l"
+alias grep="grep --color"
+
+parse_git_branch() {
+git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/--(git
+branch \1)/'
+}
+
+#PROMPT_COMMAND="echo $PWD"
+# this will get executed before each PS1 prompot
+
+# change bash prompt
+#PS1='\[\e[1;36m\]\w\[\e[m\]\[\e[1;00m\]\$\[\e[m\] '
+#export PS1='\n\[$RESET$WHITE\]\n(\[$CYAN\]#\!\[$WHITE\])--(\[$RED\]\D{%T}\[$WHITE\])--(\[$RESET$MAGENTA\]\u\[$RESET$WHITE\]@\[$RESET$GREEN\]\h\[$RESET$WHITE\]:\[$RESET$BOLD$WHITE\]\w\[$RESET$WHITE\])$(parse_git_branch)\n\[$RESET$WHITE\]\$\[$RESET\]'
+
+##
+# Your previous /Users/yaoxu/.bash_profile file was backed up as /Users/yaoxu/.bash_profile.macports-saved_2011-07-20_at_23:41:37
+##
+
+# MacPorts Installer addition on 2011-07-20_at_23:41:37: adding an appropriate PATH variable for use with MacPorts.
+export PATH=~/bin:/opt/local/bin:/opt/local/sbin:$PATH
+# Finished adapting your PATH environment variable for use with MacPorts.
+
+
+# Setting PATH for MacPython 2.6
+# The orginal version is saved in .bash_profile.pysave
+# PATH="/Library/Frameworks/Python.framework/Versions/2.6/bin:${PATH}"
+# export PATH

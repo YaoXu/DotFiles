@@ -1,0 +1,9 @@
+[user]
+	name = YaoXu
+	email = yaoxuyaoxu@gmail.com
+[merge]
+	tool = vimdiff
+[alias]
+	ci = commit
+	co = checkout
+	unstage = reset HEAD --
